@@ -15,6 +15,9 @@ All menu texts, buttons, and setting strings are located in the `language` folde
 6. **How to see changes in-game:** Simply go to **Settings -> Language**, switch to any other language, and then switch back to yours. The changes will apply instantly!
 
 ## 2. How to Edit Girls' Dialogues
+> [!NOTE]
+> **Game Version 1.1.0.1:** This version does not use external dialogue JSON files (there is no `dialogue` folder in 1.1.0.1). Dialogue translation in 1.1.0.1 is handled entirely via the `language/lang_*.txt` files. Editing JSON dialogues only applies to versions 1.4.0.4, 1.4.0.5, and 1.4.0.6.
+
 Dialogues are divided by the girls' personality types and are located in the `dialogue` folder.
 
 1. Navigate to the `dialogue` folder.
@@ -29,6 +32,9 @@ Dialogues are divided by the girls' personality types and are located in the `di
 6. **How to see changes:** The mod features *Instant Dialogue Reloading*. You do not need to return to the main menu or restart the game! Just go to Settings, switch the language to any other, and switch back. The new dialogues will load instantly during gameplay.
 
 ## 3. How to Edit Livestream Chat Text
+> [!NOTE]
+> **Game Version 1.1.0.1:** External livestream chat translation via JSON files does not apply to 1.1.0.1. Chat comments in 1.1.0.1 are translated inside the `language/lang_*.txt` files.
+
 Viewer comments during the livestream are also located in the `dialogue` folder.
 
 1. Open the `dialogue` folder -> the folder of your language (e.g., `en`).
